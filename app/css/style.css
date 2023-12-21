@@ -1,6 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 
+@import 'theme.css';
 
 @import 'tailwindcss/utilities';
 
@@ -10,7 +11,7 @@
         direction: rtl;
     }
     .btn, .btn-sm {
-        @apply font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out;
+        @apply font-medium inline-flex items-center justify-center rounded leading-snug transition duration-150 ease-in-out;
     }
     
     .btn {
@@ -18,7 +19,7 @@
     }
     
     .btn-sm {
-        @apply px-4 py-2 shadow;
+        @apply px-4 py-2;
     }
 
     .h1 {
@@ -35,6 +36,16 @@
     
     .h4 {
         @apply text-2xl font-bold leading-snug tracking-tight;
+    }
+    
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* For IE, Edge and Firefox */
+    .scrollbar-hide {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
     }
 }
 
