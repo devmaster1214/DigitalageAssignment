@@ -1,6 +1,6 @@
 # Digital Age Assignment
 
-**Simple Light** is built on top of **TailwindCSS** and fully coded in **React** / **Next.js**.
+**Digital Age** is built on top of **TailwindCSS** and fully coded in **React** / **Next.js**.
 ![Screenshot_1](https://github.com/devmaster1214/DigitalageAssignment/assets/154261980/24db0e56-838a-49d8-baa9-b653380fad1b)
 
 ![Screenshot_2](https://github.com/devmaster1214/DigitalageAssignment/assets/154261980/ee363dcc-00b3-46ad-aaf2-2f7ed866f96b)
