@@ -22,8 +22,6 @@ export default function LandingFeatures() {
               </p>
             </div>
           </div>
-
-
         </div>
 
       </div>
